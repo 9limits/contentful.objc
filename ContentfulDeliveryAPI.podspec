@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/contentful/contentful.objc/"
   s.license = 'MIT'
   s.author          = { "Boris Bügling" => "boris@buegling.com" }
-  s.source          = { :git => "https://github.com/9limits/contentful.objc.git", :tag => 'v1.9.3s4' }
+  s.source          = { :git => "https://github.com/9limits/contentful.objc.git", :tag => 'master' }
   s.social_media_url = 'https://twitter.com/contentful'
 
   s.platform     = :ios, '6.0'
