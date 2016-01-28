@@ -11,12 +11,12 @@ Pod::Spec.new do |s|
   }
 
   s.authors      = { "Boris Bügling" => "boris@buegling.com" }
-  s.source       = { :git => "https://github.com/9limits/contentful.objc.git",
-                     :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/9limits/contentful.objc.git"
+                    }
   s.requires_arc = true
 
-  s.source_files         = 'Code/*.{h,m}',
-  s.public_header_files  = 'Code/{CDAArray,CDAAsset,CDAClient,CDAConfiguration,CDAContentType,CDAEntry,CDAError,CDAField,CDANullabilityStubs,CDARequest,CDAResource,CDAResponse,CDASpace,CDASyncedSpace,ContentfulDeliveryAPI,CDAPersistenceManager,CDAPersistedAsset,CDAPersistedEntry,CDAPersistedSpace,CDALocalizablePersistedEntry,CDALocalizedPersistedEntry}.h'
+  s.source_files         = './Code/*.{h,m}',
+  s.public_header_files  = './Code/{CDAArray,CDAAsset,CDAClient,CDAConfiguration,CDAContentType,CDAEntry,CDAError,CDAField,CDANullabilityStubs,CDARequest,CDAResource,CDAResponse,CDASpace,CDASyncedSpace,ContentfulDeliveryAPI,CDAPersistenceManager,CDAPersistedAsset,CDAPersistedEntry,CDAPersistedSpace,CDALocalizablePersistedEntry,CDALocalizedPersistedEntry}.h'
 
   s.ios.deployment_target     = '6.0'
   s.ios.source_files          = 'Code/UIKit/*.{h,m}'
