@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.public_header_files  = 'Code/{CDAArray,CDAAsset,CDAClient,CDAConfiguration,CDAContentType,CDAEntry,CDAError,CDAField,CDANullabilityStubs,CDARequest,CDAResource,CDAResponse,CDASpace,CDASyncedSpace,ContentfulDeliveryAPI,CDAPersistenceManager,CDAPersistedAsset,CDAPersistedEntry,CDAPersistedSpace,CDALocalizablePersistedEntry,CDALocalizedPersistedEntry}.h'
 
 
-  s.ios.source_files          = 'Code/UIKit/*.{h,m}'
+  s.ios.source_files          = 'Code/*.{h,m}', 'Code/UIKit/*.{h,m}'
   s.ios.frameworks            = 'UIKit', 'MapKit'
   s.ios.public_header_files  = 'Code/UIKit/{CDAEntriesViewController,CDAFieldsViewController,UIImageView+CDAAsset,CDAMapViewController,CDAResourcesCollectionViewController,CDAResourcesViewController,CDAResourceCell}.h'
 
